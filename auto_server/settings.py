@@ -25,7 +25,7 @@ SECRET_KEY = ')t%3dp0g=nh81prs*pk*k$+rjn87n-#tq$nopkspzg&dgfv1b8'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['linzetong.club']
 
 
 # Application definition
