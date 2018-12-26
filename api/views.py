@@ -71,7 +71,6 @@ def server(request):
 
 
 @csrf_exempt
-@api_auth
 def test_callback(request):
     """用于测试第三方回掉接口"""
     print('request.META:', request.META)
