@@ -1,0 +1,18 @@
+.env
+.python-version
+
+# Python compiled byte code
+*.pyc
+
+migrations/
+
+# Python pip environment
+.myenv/
+
+# IDEs
+.project
+.pydevproject
+*.idea
+../*.idea
+.vscode
+.settings

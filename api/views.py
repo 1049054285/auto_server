@@ -68,3 +68,11 @@ def server(request):
         result = manager.exec(server_dict)
 
         return HttpResponse(json.dumps(result))
+
+
+@csrf_exempt
+@api_auth
+def test_callback(request):
+    """用于测试第三方回掉接口"""
+    print('request.META:', request.META)
+    print('request.body:', request.body.decode('utf-8'))
