@@ -75,3 +75,4 @@ def test_callback(request):
     """用于测试第三方回掉接口"""
     print('request.META:', request.META)
     print('request.body:', request.body.decode('utf-8'))
+    return HttpResponse(json.dumps({'request.META': request.META, 'request.body': request.body.decode('utf-8')}))
